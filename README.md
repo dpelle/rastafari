@@ -9,6 +9,10 @@ set t_Co=256
 set termguicolors
 ```
 
+## Screenshot
+
+![rastafari-screenshot](https://user-images.githubusercontent.com/2261629/97625350-af7ab280-1a28-11eb-807a-1599a40f215f.png)
+
 ## Installation
 
 ### Via Plugin Manager (recommended)
