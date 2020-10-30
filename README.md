@@ -11,7 +11,7 @@ set termguicolors
 
 ## Screenshot
 
-![rastafari-screenshot](https://user-images.githubusercontent.com/2261629/97625350-af7ab280-1a28-11eb-807a-1599a40f215f.png)
+![rastafari](https://user-images.githubusercontent.com/2261629/97753088-7eb47f00-1af5-11eb-87d5-d4e5b5d58e0b.png)
 
 ## Installation
 
