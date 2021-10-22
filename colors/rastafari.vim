@@ -100,12 +100,13 @@ hi vimHiCtermColor guifg=#ffff60 guibg=bg      gui=none term=none cterm=none cte
 hi vimFold         guifg=#888888 guibg=#333333 gui=none term=none cterm=none ctermfg=darkgrey ctermbg=grey"{{{
 " Specific for help files {{{1
 hi helpHyperTextJump guifg=#ffaa00 guibg=bg gui=none term=none cterm=none ctermfg=darkyellow
+hi helpHeader        guifg=#ff60ff guibg=bg gui=bold term=bold cterm=bold ctermfg=magenta
 " Specific for Perl {{{1
-hi perlSharpBang        guifg=#80ff80 guibg=bg gui=bold term=standout cterm=bold ctermfg=lightgreen"{{{
+hi perlSharpBang        guifg=#80ff80 guibg=bg gui=bold term=standout cterm=bold ctermfg=lightgreen
 hi perlStatement        guifg=#aaaaaa guibg=bg gui=none term=none     cterm=none ctermfg=gray
-hi perlStatementStorage guifg=#dddddd guibg=bg gui=bold term=none     cterm=none ctermfg=white"}}}
+hi perlStatementStorage guifg=#dddddd guibg=bg gui=bold term=none     cterm=none ctermfg=white
 hi perlVarPlain         guifg=#aaaaaa guibg=bg gui=none term=none     cterm=none ctermfg=gray
-hi perlVarPlain2        guifg=#aaaaaa guibg=bg gui=none term=none     cterm=none ctermfg=gray"}}}
+hi perlVarPlain2        guifg=#aaaaaa guibg=bg gui=none term=none     cterm=none ctermfg=gray
 " Specific for Ruby {{{1
 hi rubySharpBang guifg=#80ff80 guibg=bg gui=bold term=none cterm=bold ctermfg=lightgreen
 " Specific for the statusline {{{1
@@ -144,6 +145,10 @@ hi SpellBad   guisp=red    gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE cter
 hi SpellCap   guisp=yellow gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE term=underline cterm=undercurl
 hi SpellRare  guisp=blue   gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE term=underline cterm=undercurl
 hi SpellLocal guisp=orange gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE term=underline cterm=undercurl
+" YouCompleteMe {{{1
+hi YcmWarningSign guifg=#ffee80 guibg=bg gui=bold term=none cterm=none ctermfg=yellow
+hi YcmErrorSign guifg=#ff6060 guibg=bg gui=bold term=none cterm=none ctermfg=red
+
 " Cursor color for GUI {{{1
 hi Cursor   guifg=#000000 guibg=#ff0000
 hi lCursor  guifg=#000000 guibg=#80ff80
